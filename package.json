@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "singleton": "ts-node src/singleton/main.ts",
+    "builder": "ts-node src/builder/main.ts",
+    "prototype": "ts-node src/prototype/main.ts"
+  },
   "devDependencies": {
-    "@types/node": "^25.6.2",
+    "@types/node": "^25.8.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
